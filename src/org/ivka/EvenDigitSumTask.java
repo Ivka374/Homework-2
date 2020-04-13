@@ -1,9 +1,5 @@
 package org.ivka;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Scanner;
-
 public class EvenDigitSumTask {
     public static int getEvenDigitSum(int number){
         if (number >= 0){
