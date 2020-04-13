@@ -21,5 +21,7 @@ public class GreatestCommonDivisorTask {
         int first = scanner.nextInt();
         int second = scanner.nextInt();
         System.out.println(getGreatestCommonDivisor(first, second));
+
+        scanner.close();
     }
 }

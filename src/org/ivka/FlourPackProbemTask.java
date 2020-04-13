@@ -21,5 +21,7 @@ public class FlourPackProbemTask {
         int smallPackages = scanner.nextInt();
         int goal = scanner.nextInt();
         System.out.println(canPack(bigPackages, smallPackages, goal));
+
+        scanner.close();
     }
 }
