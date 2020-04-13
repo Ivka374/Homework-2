@@ -22,5 +22,7 @@ public class LastDigitCheckerTask {
         int c = scanner.nextInt();
         System.out.println(hasSameLastDigit(a, b, c));
         System.out.println(isValid(scanner.nextInt()));
+
+        scanner.close();
     }
 }

@@ -45,5 +45,7 @@ public class NumberInWorldTask {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         printNumberInWorld(scanner.nextInt());
+
+        scanner.close();
     }
 }
